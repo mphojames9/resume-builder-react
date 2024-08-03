@@ -15,9 +15,9 @@ function App() {
     <NanBarComponent ></NanBarComponent >
     <BrowserRouter>
       <Routes>
-        <Route index element={<Store/>} />
-        <Route path='success' element={<Success />} />
-        <Route path='cancel' element={<Cancel />} />
+        <Route path='shopping-cart' element={<Store/>} />
+        <Route path='shopping-cart/success' element={<Success />} />
+        <Route path='shopping-cart/cancel' element={<Cancel />} />
       </Routes>
     </BrowserRouter>
     </Container>
