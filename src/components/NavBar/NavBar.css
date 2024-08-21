@@ -1,15 +1,12 @@
 /*custom properties*/
 :root {
-    --ff--primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
 
     --fw-reg: 300;
     --fw-bold: 900;
 
     --clr-light: #ffffff;
-    --clr-drk-light:rgba(237, 240, 243, 0.562);
-    --clr-dark: #24262b;
-    --clr-accent: #49557e;
+    --clr-dark: #49557e;
+    --clr-accent: #f80707;
     --clr-accent__-adj: #fcfc;
 
     --fs-h1: 3rem;
@@ -35,7 +32,7 @@
     display:flex;
     list-style: none;
     gap: 20px;
-    color:var(--clr-accent);
+    color:var(--clr-dark);
     font-size: 18px;
 }
 
@@ -49,7 +46,7 @@
     background: transparent;
     font-size: 16px;
     color: var(--clr-accent);
-    border: 1px solid tomato;
+    border: 1px solid var(--clr-accent);
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -57,7 +54,6 @@
 }
 
 .navbar button:hover{
-    background-color: var(--clr-accent__-adj);
     transform: scale(1.02);
 }
 
@@ -70,7 +66,7 @@
     border-bottom: 2px solid var(--clr-accent                          );
 }
 
-.navbar li {
+.navbar li{
     cursor: pointer;
 }
 
@@ -82,7 +78,7 @@
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: tomato;
+    background-color: var(--clr-accent);
     top: -8px;
     right: -8px;
     border-radius: 50%;

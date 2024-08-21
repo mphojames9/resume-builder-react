@@ -1,0 +1,61 @@
+:root {
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #ffffff;
+    --clr-dark: #49557e;
+    --clr-accent: #f80707;
+    --clr-accent__-adj: #fcfc;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+    --bs: 1.25em 1.25em 1.75em rgba(51, 71, 189, 0.25),
+          1.125em 1.125em 1.25em rgba(70, 98, 136, 0.15);
+    --ts: 1px 3px 1px rgb(88, 67, 67);
+}
+
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background-image: url('/header_img.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 50px;
+}
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 300ms;/*FadeIn animation on start up*/
+}
+
+.header-contents h1{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,22px);
+}
+
+.header-contents p {
+    color: white;
+    font-size: 1w;
+}
+
+.header-contents button {
+    border: none;
+    color: var(--clr-dark);
+    font-weight: 5000;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+}

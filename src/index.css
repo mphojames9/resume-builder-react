@@ -18,3 +18,13 @@ a{
     width: 80%;
     margin: auto;
 }
+
+/*Fadein animation on start up*/
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
