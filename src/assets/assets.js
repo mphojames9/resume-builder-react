@@ -180,21 +180,21 @@ export const food_list = [
         image: product_9,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Laptops"
     }, {
         _id: "10",
         name: "Fruit Ice Cream",
         image: product_10,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Laptops"
     }, {
         _id: "11",
         name: "Jar Ice Cream",
         image: product_11,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Laptops"
     }, {
         _id: "12",
         name: "Vanilla Ice Cream",
@@ -209,7 +209,7 @@ export const food_list = [
         image: product_13,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Smart TV"
     },
     {
         _id: "14",
@@ -217,14 +217,14 @@ export const food_list = [
         image: product_14,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Smart TV"
     }, {
         _id: "15",
         name: "Grilled Sandwich",
         image: product_15,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Smart TV"
     }, {
         _id: "16",
         name: "Bread Sandwich",
