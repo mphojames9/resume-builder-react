@@ -5,9 +5,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: outfit;
+    scroll-behavior: smooth;
 }
 body{
     min-width: 100vh;
+
 }
 a{
     text-decoration: none;

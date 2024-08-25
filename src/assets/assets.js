@@ -6,9 +6,9 @@ import menu_1 from './images.jpeg'
 import menu_2 from './shopping_6.webp'
 import menu_3 from './shopping_12.webp'
 import menu_4 from './shopping_14.webp'
-import menu_5 from './menu_5.png'
-import menu_6 from './menu_6.png'
-import menu_7 from './menu_7.png'
+import menu_5 from './shopping_20.webp'
+import menu_6 from './shopping_26.webp'
+import menu_7 from './shopping_27.webp'
 import menu_8 from './menu_8.png'
 
 import product_1 from './shopping.webp'
@@ -25,17 +25,17 @@ import product_11 from './shopping_12.webp'
 import product_12 from './shopping_13.webp'
 import product_13 from './shopping_14.webp'
 import product_14 from './shopping_16.webp'
-import product_15 from './product_15.png'
-import product_16 from './product_16.png'
-import product_17 from './product_17.png'
-import product_18 from './product_18.png'
-import product_19 from './product_19.png'
-import product_20 from './product_20.png'
-import product_21 from './product_21.png'
-import product_22 from './product_22.png'
-import product_23 from './product_23.png'
-import product_24 from './product_24.png'
-import product_25 from './product_25.png'
+import product_15 from '././shopping_17.webp'
+import product_16 from '././shopping_18.webp'
+import product_17 from './shopping_19.webp'
+import product_18 from './shopping_20.webp'
+import product_19 from './shopping_21.webp'
+import product_20 from './shopping_22.webp'
+import product_21 from './shopping_23.webp'
+import product_22 from './shopping_24.webp'
+import product_23 from './shopping_25.webp'
+import product_24 from './shopping_26.webp'
+import product_25 from './shopping_27.webp'
 import product_26 from './product_26.png'
 import product_27 from './product_27.png'
 import product_28 from './product_28.png'
@@ -100,15 +100,15 @@ export const menu_list = [
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Monitor",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Taplets",
         menu_image: menu_6
     },
     {
-        menu_name: "Pasta",
+        menu_name: "Office",
         menu_image: menu_7
     },
     {
@@ -143,159 +143,161 @@ export const food_list = [
         _id: "4",
         name: "The JLab Audio GO",
         image: product_4,
-        price: 24,
+        price: 124,
         description: " Air POP are perfectly pocket-sized with a powerful punch. With 32+ hours of total playtime",
         category: "Accessories"
     }, {
         _id: "5",
         name: "Apple iPhone",
         image: product_5,
-        price: 12500,
+        price: 2500,
         description: "iPhone 15 Pro Max. Forged in titanium and featuring the groundbreaking A17 Pro chip",
         category: "Phones"
     }, {
         _id: "6",
         name: "Samsung Galaxy S24",
         image: product_6,
-        price: 12,
+        price: 1900,
         description: "Galaxy S24 and S24+ both come with a 12MP Selfie Camera and a triple Rear Camera",
         category: "Phones"
     }, {
         _id: "7",
         name: "Samsung Galaxy A03 32GB",
         image: product_7,
-        price: 20,
+        price: 2100,
         description: "This Device is Locked to the MTN Network",
         category: "Phones"
     }, {
         _id: "8",
         name: "ZTE Blade L210",
         image: product_8,
-        price: 15,
+        price: 1000,
         description: " large display, brings you a broader and immersive view. 16GB ROM provides large storage space",
-        category: "Rolls"
+        category: "Taplets"
     }, {
         _id: "9",
         name: "Ripple Ice Cream",
         image: product_9,
-        price: 14,
+        price: 2500,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Laptops"
     }, {
         _id: "10",
         name: "Fruit Ice Cream",
         image: product_10,
-        price: 22,
+        price: 2200,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Laptops"
     }, {
         _id: "11",
         name: "Jar Ice Cream",
         image: product_11,
-        price: 10,
+        price: 4000,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Laptops"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "AOC Monitor 19.5 TN",
         image: product_12,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 1200,
+        description: "AOC Monitor 19.5 TN Panel;1600x900@60Hz; HDMI+VGA; earphone;Flicker free;VESA; ;4 year carry in/swop out",
+        category: "Monitor"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "SINOTEC 50 SMART UHD TV",
         image: product_13,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price:2600,
+        description: "The A6G delivers more than four times the resolution of a regular 1080p HD screen. With Android TV",
         category: "Smart TV"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "22″ Smart WebOS Full HD TV",
         image: product_14,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1100,
+        description: "High-definition screen resolution of 1920 x 1080 pixels. This means the display contains over 2 million pixels",
         category: "Smart TV"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Ecco – 32″ Smart LED TV – LH32KS",
         image: product_15,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1300,
+        description: "Experience unparalleled clarity and entertainment with the Ecco 32-inch HD Smart TV. Featuring a Super Clear Panel",
         category: "Smart TV"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: " 55″ 4K Ultra HD Smart TV",
         image: product_16,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 2300,
+        description: "This 55” Smart 4K UHD TV combines terrestrial channels with online streaming content unlike any other Smart TV on the market",
+        category: "Smart TV"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "SAMSUNG 27” FHD MONITOR",
         image: product_17,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 1900,
+        description: "Samsung LS19A330NHMXZN. Display diagonal: 48.3 cm, Display resolution: 1366 x 768 pixels, HD type: HD, Response time: 5 ms",
+        category: "Monitor"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Dell | 54 cm (21.5') | Full HD",
         image: product_18,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price:1000,
+        description: "DELL S Series SE2222H. Display diagonal: 54.5 cm (21.4'), Display resolution: 1920 x 1080 pixels, HD type: Full HD, Display technology: LCD",
+        category: "Monitor"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Philips V-line Monitor",
         image: product_19,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 950,
+        description: "Philips V-line 21.5-inch 1920 x 1080p HD 16:9 75Hz 4ms VA-LCD LED Monitor",
+        category: "Monitor"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Honor X5 Plus",
         image: product_20,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 2000,
+        description: "The Honor X5 Plus Dual Sim is a stylish smartphone with a powerful (50+2)+5 camera setup for capturing stunning photos.",
+        category: "Phones"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Rizzen NovaTab P10",
         image: product_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 1700,
+        description: "Rizzen NovaTab P10, 2 in 1 Windows 11 Pro Tablet with Keyboard",
+        category: "Taplets"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: 'Lenovo M8 16GB 8" Grey Tablet',
         image: product_22,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 800,
+        description: 'Lenovo Tab M8 (2nd Gen) - 2021 - Tablet - Long Battery Life - 8" HD - Front 2 MP & Rear 5MP Camera - 2GB Memory - 16GB Storage - Android 9 (Pie),Gray.',
+        category: "Taplets"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Xiaomi Redmi",
         image: product_23,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 1000,
+        description: "Choose from three sleek and stylish colors: Graphite Gray, Mint Green, and Lavender Purple. ... Starting from 4GB RAM + 128GB ROM, the speed of Redmi Pad",
+        category: "Taplets"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Lenovo Tab M11 Folio including Case and Pen",
         image: product_24,
-        price: 12,
+        price: 1200,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Taplets"
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "CHAHO Gaming Chair",
         image: product_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 1300,
+        name: "CHAHO Adjustable Ergonomic Gaming Chair",
+        name: "CHAHO  Ergonomic Gaming Chair",
+        description: "CHAHO Adjustable Ergonomic Gaming Chair Lift Recliner with Footrest and Pillow",
+        category: "Office"
     },
     {
         _id: "26",
