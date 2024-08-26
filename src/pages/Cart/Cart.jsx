@@ -29,7 +29,7 @@ const Cart = () => {
                   <p>R{item.price}</p>
                   <p>{cartItems[item.id]}</p>
                   <p>R{item.price * cartItems[item.id]}</p>
-                  <p onClick={()=>removeFromCart(item.id)} className='cross'>x</p>
+                  <p onClick={() => removeFromCart(item.id)} className='cross'>x</p>
                 </div>
                 <hr />
               </div>
@@ -37,25 +37,38 @@ const Cart = () => {
           }
         })}
       </div>
-        <div className="cart-bottom">
-          <div className="cart-total">
-            <h2>Cart Totals</h2>
-          </div>
-            <div className="cart-total-details">
-              <p>Subtotal</p>
-              <p>{0}</p>
-            </div>
-            <hr />
-            <div className="cart-total-details">
-              <p>Delivery Fee</p>
-              <p>R{40}</p>
-            </div>
-            <div className="cart-total-details">
-              <b>Total</b>
-              <b>{0}</b>
-            </div>
+      <div className="cart-bottom">
+        <div className="cart-total">
+          <h2>Cart Totals</h2>
         </div>
+        <div className="cart-total-details">
+          <p>Subtotal</p>
+          <p>{0}</p>
+        </div>
+        <hr />
+        <div className="cart-total-details">
+          <p>Delivery Fee</p>
+          <p>R{40}</p>
+        </div>
+        <hr />
+        <div className="cart-total-details">
+          <b>Total</b>
+          <b>{0}</b>
+        </div>
+      </div>
+      <button>CHECKOUT</button>
+      <div className="cart-promocode">
+        <div>
+          <p>Promo code</p>
+          <div className="cart-promocode-input">
+            <input type="text" placeholder='Enter promo code (optional)' />
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
     </div>
+
+  
   );
 }
 
