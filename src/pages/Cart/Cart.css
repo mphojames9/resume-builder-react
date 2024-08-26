@@ -40,6 +40,79 @@
 .cart-total{
     flex: 1;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-total-details{
+    display: flex;
     justify-content: space-between;
     color: #5555;
 }
+
+.cart-total hr{
+    margin: 10px;
+}
+
+.cart-total button{
+    border: none;
+    color: white;
+    background-color: rgb(224, 18, 18);
+    width: max(15vw,200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+}
+
+.cart-total button:hover{
+    transform: scale(1.025);
+}
+
+.cart-total button:active{
+    transform: scale(0.985);
+}
+
+.car-promocode{
+    flex: 1;
+}
+
+.cart-promocode p{
+    color: #555;
+}
+
+.cart-promocode-input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaea;
+    border-radius: 4px;
+}
+
+.cart-promocode-input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.cart-promocode-input button{
+    width: max(10vw,150px);
+    padding: 12px 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+}
+
+.cart-promocode-input button:hover {
+    transform: scale(1.025);
+}
+
+.cart-promocode-input button:active {
+    transform: scale(0.985);
+}
+

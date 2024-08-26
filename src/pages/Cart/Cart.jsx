@@ -7,6 +7,7 @@ const Cart = () => {
   const { cartItems, food_list, removeFromCart } = useContext(StoreContext)
 
   return (
+  
     <div className='cart'>
       <div className="cart-iteams">
         <div className="cart-items-title">
@@ -40,7 +41,8 @@ const Cart = () => {
       <div className="cart-bottom">
         <div className="cart-total">
           <h2>Cart Totals</h2>
-        </div>
+        <div>
+    
         <div className="cart-total-details">
           <p>Subtotal</p>
           <p>{0}</p>
@@ -57,6 +59,7 @@ const Cart = () => {
         </div>
       </div>
       <button>CHECKOUT</button>
+      </div>
       <div className="cart-promocode">
         <div>
           <p>Promo code</p>
@@ -64,9 +67,11 @@ const Cart = () => {
             <input type="text" placeholder='Enter promo code (optional)' />
             <button>Submit</button>
           </div>
+          </div>
+          </div>
         </div>
       </div>
-    </div>
+  
 
   
   );
