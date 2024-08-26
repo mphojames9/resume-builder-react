@@ -9,7 +9,7 @@ import menu_4 from './shopping_14.webp'
 import menu_5 from './shopping_20.webp'
 import menu_6 from './shopping_26.webp'
 import menu_7 from './shopping_27.webp'
-import menu_8 from './menu_8.png'
+import menu_8 from './shopping_34.webp'
 
 import product_1 from './shopping.webp'
 import product_2 from './shopping_2.webp'
@@ -36,13 +36,13 @@ import product_22 from './shopping_24.webp'
 import product_23 from './shopping_25.webp'
 import product_24 from './shopping_26.webp'
 import product_25 from './shopping_27.webp'
-import product_26 from './product_26.png'
-import product_27 from './product_27.png'
-import product_28 from './product_28.png'
-import product_29 from './product_29.png'
-import product_30 from './product_30.png'
-import product_31 from './product_31.png'
-import product_32 from './product_32.png'
+import product_26 from './shopping_28.webp'
+import product_27 from './shopping_29.webp'
+import product_28 from './shopping_30.webp'
+import product_29 from './shopping_31.webp'
+import product_30 from './shopping_32.webp'
+import product_31 from './shopping_33.webp'
+import product_32 from './shopping_34.webp'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -112,7 +112,7 @@ export const menu_list = [
         menu_image: menu_7
     },
     {
-        menu_name: "Noodles",
+        menu_name: "Gaming",
         menu_image: menu_8
     }]
 
@@ -176,24 +176,24 @@ export const food_list = [
         category: "Taplets"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Dell Inspiron 7746 5th Gen",
         image: product_9,
         price: 2500,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Dell Inspiron 7746 5th Gen “Core i7” 2.40GHz 4GB RAM 500GB HDD No Battery Silver (3 Month Warranty)",
         category: "Laptops"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "HP ProBook 650 G5",
         image: product_10,
         price: 2200,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "HP ProBook 650 G5 “Core i5” 1.6GHz 4GB RAM 256GB SSD Cracked Casing Space Grey(3 Month Warranty)",
         category: "Laptops"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Lenovo IdeaPad 1 Celeron Laptop Bundle",
         image: product_11,
         price: 4000,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Windows 11 Home, 15.6 inch FHD Display, 8GB RAM and 256GB SSD Storage",
         category: "Laptops"
     }, {
         _id: "12",
@@ -301,52 +301,52 @@ export const food_list = [
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "Merryfair Office Chair - Mango",
         image: product_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 700,
+        description: "The Wau Ergo TPE Office Chair is a Merryfair Original and will add a full ergonomic experience to your office space.",
+        category: "Office"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "RGB Gaming Desk",
         image: product_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 1600,
+        description: "Elevate your gaming setup with the MBS Ergonomic RGB Gaming Desk. Featuring a sleek carbon fiber finish, this desk combines style and durability",
+        category: "Office"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "SOHO 120cm 2 Drawer Corner Desk",
         image: product_28,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: " Available in various colors, this desk offers ample storage and adaptability for any workspace",
+        category: "Office"
     }, {
         _id: "29",
-        name: "Buttter Noodles",
+        name: "Thrustmaster T248P Type C Racing Wheel",
         image: product_29,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 3000,
+        description: "Thrustmaster T248P Type C Racing Wheel and Magnetic Pedals for PS5/PS4/PC, Black/Silver",
+        category: "Gaming"
     }, {
         _id: "30",
-        name: "Veg Noodles",
+        name: "PLAYSTATION 5 SLIM",
         image: product_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 2500,
+        description: "PS5 Slim Disc Console Single Wireless Controller 1TB SSD 2 Horizontal Stand Feet HDMI cable & AC power cord USB cable, printed materials ASTRO’s PLAYROOM",
+        category: "Gaming"
     }, {
         _id: "31",
-        name: "Somen Noodles",
+        name: "Microsoft Xbox Series X",
         image: product_31,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 3000,
+        description: "Hailed as the most powerful Xbox ever, the Xbox Series X not only looks better...it plays better as well… With crystal clear 4K resolution, playin",
+        category: "Gaming"
     }, {
         _id: "32",
-        name: "Cooked Noodles",
+        name: "	Sony PSP E1000 Street",
         image: product_32,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 1500,
+        description: "PSP-E1000 puts amazing portable entertainment in your hands without busting your wallet. Enjoy the fantastic variety of perfect pocket money priced games with PSP Essentials ...",
+        category: "Gaming"
     }
 ]
