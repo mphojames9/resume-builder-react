@@ -116,3 +116,13 @@
     transform: scale(0.985);
 }
 
+@media(max-width:750px){
+    .cart-bottom{
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode{
+        justify-content: start;
+    }
+}
+
