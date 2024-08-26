@@ -8,11 +8,11 @@ const ExploreMenu = ({category, setCategory}) => {
             <h1>Explore menu Iteams here</h1>
             <p className='explore-menu-text'>Choose from clothing, phone laptops and viarity of almomost every you need need</p>
             <div className="explore-menu-list">
-                {menu_list.map((iteam, index) => {
+                {menu_list.map((item, index) => {
                     return (
-                        <div onClick={()=>setCategory(prev=>prev===iteam.menu_name?"All":iteam.menu_name)} key={index} className='explore-menu-list-iteam'>
-                            <img className={category===iteam.menu_name?"active":""} src={iteam.menu_image} alt='menuImage'></img>
-                            <p>{iteam.menu_name}</p>
+                        <div onClick={()=>setCategory(prev=>prev===item.menu_name?"All":item.menu_name)} key={index} className='explore-menu-list-iteam'>
+                            <img className={category===item.menu_name?"active":""} src={item.menu_image} alt='menuImage'></img>
+                            <p>{item.menu_name}</p>
                         </div>
                     )
                 })}
