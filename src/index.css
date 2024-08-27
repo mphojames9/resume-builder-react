@@ -7,18 +7,21 @@
     font-family: outfit;
     scroll-behavior: smooth;
 }
-body{
-    min-width: 100vh;
 
-}
 a{
     text-decoration: none;
     color: inherit;
 }
 
 .app{
-    width: 80%;
+    width: 90%;
     margin: auto;
+}
+
+@media (max-width:550px){
+    .app {
+        width: 95%;
+    }
 }
 
 /*Fadein animation on start up*/

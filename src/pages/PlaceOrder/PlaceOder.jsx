@@ -24,7 +24,7 @@ const PlaceOder = () => {
         <input type='text' placeholder='Zip code' />
         <input type='text' placeholder='Country' />
     </div>
-    <input type='text' placeholder='phone' />
+    <input type='text' placeholder='Phone' />
     </div>
     <div className='place-order-right'>
     <div className="cart-total">
@@ -38,12 +38,12 @@ const PlaceOder = () => {
         <hr />
         <div className="cart-total-details">
           <p>Delivery Fee</p>
-          <p>R{150}</p>
+          <p>R{getTotalCartAmount()===0?0:40}</p>
         </div>
         <hr />
         <div className="cart-total-details">
           <b>Total</b>
-          <b>R{getTotalCartAmount()+150}</b>
+          <b>R{getTotalCartAmount()===0?0:getTotalCartAmount()+40}</b>
         </div>
       </div>
       <button>PROCEED TO PAYMENT</button>

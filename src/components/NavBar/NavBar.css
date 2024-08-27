@@ -138,3 +138,14 @@
     }
         
 }
+
+@media (max-width:380px){
+    .navbar-right button{
+        padding: 3px 16px;
+        font-size: 11px;
+    }
+
+    .navbar-right img{
+        width: 16px;
+    }
+}
