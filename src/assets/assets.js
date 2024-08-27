@@ -244,7 +244,7 @@ export const food_list = [
         name: "Dell | 54 cm (21.5') | Full HD",
         image: product_18,
         price:1000,
-        description: "DELL S Series SE2222H. Display diagonal: 54.5 cm (21.4'), Display resolution: 1920 x 1080 pixels, HD type: Full HD, Display technology: LCD",
+        description: "DELL S Series SE2222H. Display diagonal: 54.5 cm (21.4')",
         category: "Monitor"
     }, {
         id: "19",
@@ -269,7 +269,7 @@ export const food_list = [
         category: "Taplets"
     }, {
         id: "22",
-        name: 'Lenovo M8 16GB 8" Grey Tablet',
+        name: 'Lenovo M8 16GB 8"',
         image: product_22,
         price: 800,
         description: 'Lenovo Tab M8 (2nd Gen) - 2021 - Tablet - Long Battery Life - 8" HD - Front 2 MP & Rear 5MP Camera - 2GB Memory - 16GB Storage - Android 9 (Pie),Gray.',
@@ -311,7 +311,7 @@ export const food_list = [
         name: "RGB Gaming Desk",
         image: product_27,
         price: 1600,
-        description: "Elevate your gaming setup with the MBS Ergonomic RGB Gaming Desk. Featuring a sleek carbon fiber finish, this desk combines style and durability",
+        description: "Elevate your gaming setup with the MBS Ergonomic RGB Gaming Desk. Featuring a sleek carbon fiber finish",
         category: "Office"
     }, {
         id: "28",
@@ -332,21 +332,21 @@ export const food_list = [
         name: "PLAYSTATION 5 SLIM",
         image: product_30,
         price: 2500,
-        description: "PS5 Slim Disc Console Single Wireless Controller 1TB SSD 2 Horizontal Stand Feet HDMI cable & AC power cord USB cable, printed materials ASTRO’s PLAYROOM",
+        description: "PS5 Slim Disc Console Single Wireless Controller 1TB SSD 2 Horizontal Stand Feet HDMI cable",
         category: "Gaming"
     }, {
         id: "31",
         name: "Microsoft Xbox Series X",
         image: product_31,
         price: 3000,
-        description: "Hailed as the most powerful Xbox ever, the Xbox Series X not only looks better...it plays better as well… With crystal clear 4K resolution, playin",
+        description: "Hailed as the most powerful Xbox ever, the Xbox Series X not only looks better...it plays better as well… With crystal clear",
         category: "Gaming"
     }, {
         id: "32",
         name: "	Sony PSP E1000 Street",
         image: product_32,
         price: 1500,
-        description: "PSP-E1000 puts amazing portable entertainment in your hands without busting your wallet. Enjoy the fantastic variety of perfect pocket money priced games with PSP Essentials ...",
+        description: "PSP-E1000 puts amazing portable entertainment in your hands without busting your wallet.",
         category: "Gaming"
     }
 ]
