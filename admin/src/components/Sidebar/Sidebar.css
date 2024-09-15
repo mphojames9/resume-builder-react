@@ -27,7 +27,7 @@
 }
 
 .sidebar-option img{
-    min-width: 25px;
+    max-width: 25px;
 }
 
 .sidebar-option.active{

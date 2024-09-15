@@ -4,6 +4,7 @@
     margin-top: 50px;
     color: #6d6d6d;
     font-size: 16px;
+    animation: 300ms fadeIn;
 }
 
 .add form{
@@ -11,7 +12,8 @@
 }
 
 .add-img-upload img{
-    width: 120px;
+    width: 100px;
+    cursor:pointer;
 }
 
 .add-product-name, .add-product-description{
@@ -39,4 +41,13 @@
     background-color: black;
     color: white;
     cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+.add-btn:hover{
+    opacity:.9;
+}
+
+.add-btn:active{
+    transform: scale(.9)
 }
