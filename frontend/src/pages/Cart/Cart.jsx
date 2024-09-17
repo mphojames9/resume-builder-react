@@ -8,6 +8,7 @@ const Cart = () => {
   const { cartItems, food_list, removeFromCart, getTotalCartAmount, url } = useContext(StoreContext)
 
   const navigate = useNavigate();
+  //////////////////////key
   return (
   
     <div className='cart'>
@@ -23,16 +24,16 @@ const Cart = () => {
         <br />
         <hr />
         {food_list.map((item, index) => {
-          if (cartItems[item.id] > 0) {
+          if (cartItems[item._id] > 0) {
             return (
               <div>
-                <div className="cart-items-title cart-items-item">
+                <div key={index} className="cart-items-title cart-items-item">
                   <img src={url+"/images/"+item.image} alt='' />
                   <p>{item.name}</p>
                   <p>R{item.price}</p>
-                  <p>{cartItems[item.id]}</p>
-                  <p>R{item.price * cartItems[item.id]}</p>
-                  <p onClick={() => removeFromCart(item.id)} className='cross'>x</p>
+                  <p>{cartItems[item._id]}</p>
+                  <p>R{item.price * cartItems[item._id]}</p>
+                  <p onClick={() => removeFromCart(item._id)} className='cross'>x</p>
                 </div>
                 <hr />
               </div>
